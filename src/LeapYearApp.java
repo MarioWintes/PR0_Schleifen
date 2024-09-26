@@ -23,5 +23,8 @@ public class LeapYearApp {
         else if (leap_year % 4 == 0) {
             System.out.println(leap_year + " ist EIN Schaltjahr");
         }
+        else {
+            System.out.println(leap_year + " ist KEIN Schaltjahr");
+        }
     }
 }
